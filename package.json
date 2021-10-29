@@ -1,0 +1,30 @@
+{
+  "name": "mqtt-aedes-example",
+  "version": "1.0.0",
+  "description": "test aedes mqtt broker",
+  "main": "client.js",
+  "keywords": [
+    "aedes",
+    "mqtt",
+    "broker"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iryna-markovich/mqtt-aedes-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iryna-markovich/mqtt-aedes-example/issues"
+  },
+  "homepage": "https://github.com/iryna-markovich/mqtt-aedes-example#readme",
+  "dependencies": {
+    "aedes": "^0.46.1",
+    "mqtt": "^4.2.8"
+  }
+}
