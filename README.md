@@ -18,4 +18,9 @@ and
 npm run client
 ```
 
-Use [MQTTLens Chome extension](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm) to publish some messages to subscribed topics.
+Use [MQTTLens Chome extension](https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm) or [MQTT Explorer](https://mqtt-explorer.com/) to publish some messages to subscribed topics.
+
+To authenticate use:
+credentials `username` = `username` and `password` = `password`
+or
+`MQTT Client ID` = `mqtt-[anything]`
